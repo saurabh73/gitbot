@@ -1,5 +1,5 @@
 {
-  "name": "git-bot",
+  "name": "slack-git-bot",
   "version": "0.0.0",
   "description": "",
   "author": "saurabh73 <saurabhdutta.jk@gmail.com>",
@@ -15,7 +15,7 @@
   "private": true,
   "stdlib": {
     "build": "faaslang",
-    "name": "saurabh73/git-bot",
+    "name": "saurabh73/slack-git-bot",
     "timeout": 10000,
     "publish": true,
     "personalize": {
