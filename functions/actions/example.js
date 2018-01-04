@@ -20,6 +20,7 @@ module.exports = (user, channel, action = {}, botToken = null, callback) => {
 
   // Slack does not permit array parameters to be passed in normally -- you must
   // convert them into strings.
+    console.log(action);
   callback(null, {
     text: `Hello, <@${user}>!\nThis text will overwrite the original interactive message`,
     attachments: [{
