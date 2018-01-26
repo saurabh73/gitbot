@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GitBot</title>
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+    <link rel="stylesheet" href="./styles.css">
+
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
+</head>
+
+<body>
+    <nav class="navbar is-warning" role="navigation" aria-label="main navigation">
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="image logo" href="https://saurabh73.github.io/slack-git-bot/">
+                    <img src="./images/gitbot-logo-2.png">
+                </a>
+            </div>
+
+            <div class="navbar-menu">
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <a class="button" href="https://github.com/saurabh73/gitbot">
+                            <span class="icon">
+                                <i class="fab fa-github"></i>
+                            </span>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </nav>
+    <div class="container">
+        <section class="section">
+
+            <h1 class="title">
+                Hello World!
+            </h1>
+            <p class="subtitle">
+                I am
+                <strong>gitbot</strong>, I give out basic information about the selected repository in your slack channel, help you
+                fetching your repository code and most importantly commits to your repository with uploaded code in your
+                channel.
+            </p>
+            <p class="subtitle">Developed using
+                <a href="https://stdlib.com/">Stdlib</a>
+            </p>
+
+            <div class="tile is-ancestor">
+                <div class="tile is-parent">
+                    <article class="tile is-child notification is-warning">
+
+                        <p class="title">Basic Info</p>
+                        <p class="subtitle">use
+                            <strong>/info</strong> command in slack channel to get basic information like description, stars, forks,
+                            etc about the selected repository</p>
+                        <figure class="image">
+                            <img src="./images/info.gif">
+                        </figure>
+
+                    </article>
+                </div>
+                <div class="tile is-parent">
+                    <article class="tile is-child notification is-warning">
+
+                        <p class="title">Fetch</p>
+                        <p class="subtitle">use
+                            <strong>/fetch</strong> command in slack channel to get selected repository archived and uploaded to
+                            the channel</p>
+                        <figure class="image">
+                            <img src="./images/fetch.gif">
+                        </figure>
+
+                    </article>
+                </div>
+                <div class="tile is-parent">
+                    <article class="tile is-child notification is-warning">
+
+                        <p class="title">Commit</p>
+                        <p class="subtitle">upload zip, mention
+                            <strong>@GITBOT</strong> with commit message, select your repository and branch to commit your code
+                        </p>
+                        <figure class="image">
+                            <img src="./images/commit.gif">
+                        </figure>
+
+                    </article>
+                </div>
+
+
+            </div>
+        </section>
+    </div>
+    <footer class="footer">
+        <div class="container">
+
+            <div class="has-text-centered">
+                <span class="has-text-dark">Developed by
+                    <strong class="has-text-info">Saurabh Dutta</strong>
+                </span>
+            </div>
+            <div class="has-text-centered">
+                <a href="http://saurabh73.github.io" class="has-text-dark">
+                    <span class="icon is-medium">
+                        <i class="fas fa-home"></i>
+                    </span>
+                </a>
+
+                <a href="mailto:saurabhdutta.jk@gmail.com" class="has-text-dark">
+                    <span class="icon is-medium">
+                        <i class="fas fa-at"></i>
+                    </span>
+                </a>
+
+                <a href="https://github.com/saurabh73" class="has-text-dark">
+                    <span class="icon is-medium">
+                        <i class="fab fa-github"></i>
+                    </span>
+                </a>
+
+                <a href="https://www.linkedin.com/in/saurabh-dutta-202b7385" class="has-text-dark">
+                    <span class="icon is-medium">
+                        <i class="fab fa-linkedin"></i>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

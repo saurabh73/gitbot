@@ -1,0 +1,15 @@
+.image.logo {
+    width: 200px;
+    margin: 10px;
+}
+
+
+footer.footer {
+    padding: 20px;
+}
+
+figure.image {
+    background-image: url("http://via.placeholder.com/320x640?text=loading");
+    width: 100%;
+    max-height: 640px;
+}
